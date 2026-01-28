@@ -8,13 +8,12 @@ import os
 import csv
 
 CURRENT_DIRECTORY = os.path.dirname((__file__))
-INPUT_PPSN_CSV_FILE = os.path.join(CURRENT_DIRECTORY, 'Input', 'PPSN.csv')
+
+INPUT_PPSN_CSV_FILE = os.path.join(CURRENT_DIRECTORY, 'Input', 'PPSN.csv', )
 INPUT_BENIFITS_CSV_FILE = os.path.join(CURRENT_DIRECTORY, 'Input', 'benefits.csv')
 INPUT_BONUSES_CSV_FILE = os.path.join(CURRENT_DIRECTORY, 'Input', 'bonuses.csv')
 INPUT_RATE_CSV_FILE = os.path.join(CURRENT_DIRECTORY, 'Input', 'rates.csv')
 INPUT_TIMETABLE_CSV_FILE = os.path.join(CURRENT_DIRECTORY, 'Input', 'hours.csv')
-
-
 def read_csv(filename, dict_update, field_name):
     """
     Docstring for read_csv
